@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router";
+import Footer from "../pages/Shared/Footer/Footer";
 
 const RootLayout = () => {
   return (
@@ -8,7 +9,9 @@ const RootLayout = () => {
       <main className="flex-1">
         <Outlet />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 };
