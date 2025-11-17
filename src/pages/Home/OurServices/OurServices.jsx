@@ -42,7 +42,7 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="bg-[#03373D] max-w-[1500px] mx-auto rounded-4xl py-24 px-40">
+    <div className="bg-[#03373D] home-component-with-bg rounded-4xl py-24 px-40">
       <div className="text-center mb-8">
         <h1 className="text-[40px] font-bold mb-4">Our Services</h1>
         <p className="font-medium">
