@@ -21,6 +21,7 @@ const Brands = () => {
     star,
     start_people,
   ];
+  console.log(brandLogos);
   return (
     <div className="home-content mt-24 text-center">
       <h1 className="font-bold text-3xl mb-10">
@@ -28,9 +29,8 @@ const Brands = () => {
       </h1>
       <Swiper
         loop={true}
-        slidesPerView={4}
+        slidesPerView={5}
         slidesPerGroup={1}
-        centeredSlides={true}
         spaceBetween={15}
         grabCursor={true}
         autoplay={{
