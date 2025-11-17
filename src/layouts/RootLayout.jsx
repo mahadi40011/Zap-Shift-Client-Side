@@ -4,7 +4,7 @@ import Footer from "../pages/Shared/Footer/Footer";
 
 const RootLayout = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <header></header>
       <main className="flex-1">
         <Outlet />
