@@ -29,12 +29,12 @@ const Service3StaticCards = () => {
   return (
     <div className="home-content py-20 border-y border-dashed  mt-24 space-y-5">
       {cards.map((card) => (
-        <div className="flex gap-12 p-8 rounded-3xl shadow bg-white">
-          <div>
-            <img className="w-48 h-48" src={card.image} alt="" />
+        <div className="flex gap-12 py-8 px-12 rounded-3xl shadow bg-white">
+          <div className="w-[20%]">
+            <img className="w-full h-48 " src={card.image} alt="" />
           </div>
-          <div className="border-l border-dashed"></div>
-          <div>
+          <div className="border-l-2 border-dashed"></div>
+          <div className="w-[80%]">
             <h2 className="font-bold text-2xl">{card.title}</h2>
             <p className="font-medium mt-4">{card.description}</p>
           </div>
